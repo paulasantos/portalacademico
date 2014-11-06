@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="br.com.portalacademico.bean">
+	<class name="Advisor" table="ADVISOR">
+		<id name="id" column="ADVISOR_ID">
+            <generator class="native"/>
+        </id>
+        <property name="name"/>
+        <property name="second_name"/>
+        <property name="email_adress"/>
+        <property name="password"/>
+        <!-- Falta mapear listas da classe advisor -->
+	</class>
+</hibernate-mapping>
