@@ -55,13 +55,14 @@
 			<artifactId>hibernate-ehcache</artifactId>
 			<version>4.3.7.Final</version>
 		</dependency>
-		
+
 		<!-- For database porpose -->
 		<dependency>
 			<groupId>postgresql</groupId>
 			<artifactId>postgresql</artifactId>
 			<version>9.1-901.jdbc4</version>
 		</dependency>
+
 		<!-- Hibernate uses slf4j for logging, for our purposes here use the simple backend -->
     	<dependency>
 			<groupId>org.slf4j</groupId>
