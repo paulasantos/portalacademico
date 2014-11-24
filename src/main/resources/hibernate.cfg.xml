@@ -9,7 +9,7 @@
         <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
         <property name="hibernate.connection.password">post-academic</property>
         <property name="hibernate.connection.url">jdbc:postgresql:porta-academic</property>
-        <property name="hibernate.connection.username">post-academic</property>
+        <property name="hibernate.connection.username">postgres</property>
         <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
         
          <!-- JDBC connection pool (use the built-in) -->
