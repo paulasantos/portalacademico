@@ -10,18 +10,18 @@ import javax.servlet.http.HttpServletResponse;
 //Should treat the information and send to the business layer
 @SuppressWarnings("serial")
 public class UserRegisterController extends HttpServlet{
-	
+	private String name = "";
 	@Override
-	protected void doGet(HttpServletRequest req, HttpServletResponse resp)
+	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		super.doGet(req, resp);
+		
 	}
 	
 	@Override
-	protected void doPost(HttpServletRequest req, HttpServletResponse resp)
+	protected void doPost(HttpServletRequest request, HttpServletResponse resp)
 			throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		super.doPost(req, resp);
+		
+		name = request.getParameter("name");
+		System.out.println(name);
 	}
 }
